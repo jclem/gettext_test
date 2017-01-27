@@ -28,6 +28,6 @@ defmodule GettextTest.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:gettext, "0.13.0"}]
+    [{:gettext, github: "elixir-lang/gettext", ref: "39b0f22a"}]
   end
 end
